@@ -1,0 +1,22 @@
+    <h1 class="text-center">Welcome</h1>
+<div class="row">
+    <div class="col-xs-6">
+      <h2>Login</h2>
+      <form ng-submit="login(login_username, login_password)">
+        <label>Username: </label><input type='text' ng-model='login_username'/></label><br>
+        <label>Password: </label><input type='password' ng-model='login_password'/></label><br>
+        <button class="btn btn-primary" type="submit">Login</button>
+      </form>
+    </div>
+
+    <div class="col-xs-6">  
+        <h2>Register</h2>
+        <form ng-submit="register(reg_username, reg_password)">
+          <label>Username: </label><input type='text' ng-model='reg_username'/></label><br>
+          <label>Password: </label><input type='password' ng-model='reg_password'/></label><br>
+          <button  class="btn btn-primary" type="submit">Register</button>
+        </form>
+    <div>
+</div>
+
+

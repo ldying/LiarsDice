@@ -1,0 +1,40 @@
+<div class="row">
+
+  <h2 class="text-center">Welcome {{user.username}}</h2>
+	<div class="col-xs-11 offset-xs-1 text-right">
+ 		<a href="#" ng-click="logout()" class="text-right">Logout</a>
+ 	</div>
+  <!-- <button class="btn btn-danger" ng-click="getRandomUser()">Get User</button> -->
+  <!-- <pre ng-bind='randomUser | json'></pre> -->
+</div>
+
+<div class="row">
+	<div class="col-xs-9">
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Table #</th>
+					<th>Slots</th>
+					<th>Players</th>
+					<th>Actions</th>
+				</tr>	
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>0/2</td>
+					<td>luke</td>
+					<td><button ng-click="joinGame()">join</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="col-xs-3">
+		<h6>leaderboard</h6>
+		<ol>
+			<li>Player 1</li>
+			<li>Player 2</li>
+			<li>Player 3</li>
+		</ol>
+	</div>
+</div> <!-- end of row -->
